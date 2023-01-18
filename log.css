@@ -88,6 +88,7 @@ button:hover{
 
 } */
 #chk:checked ~ .login{
+	/* border: 5px solid red; */
 	transform: translateY(-180px);
 }
 #chk:checked ~ .login label{
