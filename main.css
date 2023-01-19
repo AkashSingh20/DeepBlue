@@ -12,7 +12,10 @@
     box-shadow: 0px 0px 20px 0px black;
     display: flex;
     align-items: center;
+    top: 0px;
+    z-index: 1;
     position: sticky;
+    background-color: white;
 }
 
 .logo {
@@ -20,6 +23,7 @@
     padding-left: 10px;
     padding-right: 10px;
     font-size: 40px;
+    /* margin-top: 16px; */
     font-weight: bold;
     color:#622ac2;
 }
@@ -29,7 +33,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 200px;
+    margin-left: 180px;
     width: 400px;
     height: 100%;
     gap: 30px;
@@ -129,7 +133,7 @@
 
 .footer {
     /* border: 1px solid red; */
-    background-color: aliceblue;
+    background-color: white;
     margin-top: 30px;
     height: 180px;
     width: 100%;
@@ -139,14 +143,14 @@
 }
 
 .footer ul {
-    background-color: aliceblue;
+    background-color: white;
     display: flex;
     list-style-type: none;
 
 }
 
 .footer li {
-    background-color: aliceblue;
+    background-color: white;
     padding-left: 20px;
     padding-right: 20px;
     margin-top: 55px;
@@ -154,13 +158,13 @@
 }
 
 .footer li a {
-    background-color: aliceblue;
+    background-color: white;
     text-decoration: none;
     color: 6c757d;
 }
 
 .logoend {
-    background-color: aliceblue;
+    background-color: white;
     margin-top: 40px;
     font-size: 40px;
     color: 495057;
@@ -172,7 +176,7 @@
     display: flex;
     gap: 20px;
     margin-top: 110px;
-    background-color: aliceblue;
+    background-color: white;
 }
 
 .fa {
@@ -189,7 +193,7 @@
 .twitter,
 .instagram,
 .google {
-    background-color: aliceblue;
+    background-color: white;
 }
 
 .facebook a,
@@ -202,22 +206,22 @@
 }
 
 .fa-facebook {
-    background: aliceblue;
+    background: white;
     color: #3B5998;
 }
 
 .fa-twitter {
-    background: aliceblue;
+    background: white;
     color: #55ACEE;
 }
 
 .fa-instagram {
-    background: aliceblue;
+    background: white;
     color: #125688;
 }
 
 .fa-google {
-    background: aliceblue;
+    background: white;
     color: #dd4b39;
 }
 
@@ -253,22 +257,30 @@
 
 
 .try {
-    margin-top: 40px;
-    height: 60px;
-    width: 150px;
-    border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-left: 10px;
-    padding-right: 10px;
-    font-size: 25px;
-    background: linear-gradient(274.12deg,#8b68c9,#622ac2 101.74%);
-    color: white;
+    /* border: 1px solid blue; */
+    width: 150px;
+    height: 60px;
+    margin-top: 40px;
+    border-radius: 10px;
+
 }
 
 .try a{
+    /* border: 1px solid red; */
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-decoration: none;
+    background: linear-gradient(274.12deg,#8b68c9,#622ac2 101.74%);
     color: white;
 }
 
@@ -298,7 +310,22 @@
     display: flex;
     justify-content: center;
     /* object-fit: cover; */
-    margin-top: -150px;
+    margin-top: 90px;
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 530px;
+
+}
+
+.l{
+    /* border: 1px solid blue; */
+    height: 100%;
+    width: 960px;
+}
+
+.image img{
+    height: 100%;
+    width: 100%;
 }
 
 .why{
@@ -306,6 +333,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 150px;
 
 }
 
@@ -313,40 +341,35 @@
     font-size: 40px;
 }
 
+.line{
+    border: 1px solid #622ac2 ;
+    height: 100%;
+
+}
+
+.butdiv{
+    border: 1px solid red;
+    margin-top: 70px;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .but{
+    border: 1px solid violet;
+    height: 100%;
+    width: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.but1 , .but2{
-    margin-top: 50px;
-    padding-left: 40px;
-    padding-right: 40px;
-    margin-left: 60px;
-    margin-right: 60px;
-    height: 60px;
-    width: 150px;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 25px;
-    border:1px solid #55ACEE;
-}
-
-
-
-#chk:checked ~ .but {
-    padding-left: 40px;
-    padding-right: 40px;
-    height: 60px;
-    width: 150px;
-    border-radius: 10px;
-    background-color: #8b68c9;
-    
+.button1, .button2{
+    padding:0px 40px 0px 40px ;
+    margin: 0px 50px 0px 50px;
+    height: 60px ;
+    width: 290px;
 
 }
-
-
-
