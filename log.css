@@ -6,16 +6,26 @@ body{
 	align-items: center;
 	min-height: 100vh;
 	font-family: 'Jost', sans-serif;
-	background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+	/* background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1); */
+    background: linear-gradient(11.52deg,rgba(94,0,255,.63) 26.56%,rgba(255,0,104,.63) 143.34%);
+
+	
 }
 .main{
-	width: 350px;
-	height: 500px;
+	/* width: 350px; */
+	width: 400px;
+	/* height: 500px; */
+	height: 600px;
 	background: red;
 	overflow: hidden;
 	background: url("https://doc-08-2c-docs.googleusercontent.com/docs/securesc/68c90smiglihng9534mvqmq1946dmis5/fo0picsp1nhiucmc0l25s29respgpr4j/1631524275000/03522360960922298374/03522360960922298374/1Sx0jhdpEpnNIydS4rnN4kHSJtU1EyWka?e=view&authuser=0&nonce=gcrocepgbb17m&user=03522360960922298374&hash=tfhgbs86ka6divo3llbvp93mg4csvb38") no-repeat center/ cover;
 	border-radius: 10px;
 	box-shadow: 5px 20px 50px #000;
+	/* background: #000;	 */
+	/* background: linear-gradient(274.12deg,#8b68c9,#622ac2 101.74%); */
+	background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+
+
 }
 #chk{
 	display: none;
@@ -24,6 +34,7 @@ body{
 	position: relative;
 	width:100%;
 	height: 100%;
+	/* background: #000;	 */
 }
 label{
 	color: #fff;
@@ -36,17 +47,28 @@ label{
 	transition: .5s ease-in-out;
 }
 input{
-	width: 60%;
+	/* width: 60%; */
+	width: 70%;
 	height: 20px;
-	background: #e0dede;
+	/* background: #e0dede; */
 	justify-content: center;
 	display: flex;
-	margin: 20px auto;
+	/* margin: 20px auto; */
+	margin: 30px auto;
 	padding: 10px;
 	border: none;
 	outline: none;
 	border-radius: 5px;
 }
+
+.signup input{
+	background: white;
+}
+
+.login input{
+	background: #e0dede;
+}
+
 button{
 	width: 60%;
 	height: 40px;
@@ -65,13 +87,16 @@ button{
 	cursor: pointer;
 }
 button:hover{
-	background: #6d44b8;
+	/* background: #6d44b8; */
+	transform: scale(1.1);
 }
 .login{
-	height: 460px;
+	/* height: 460px; */
+	height: 550px;
 	background: #eee;
 	border-radius: 60% / 10%;
-	transform: translateY(-500px);
+	/* transform: translateY(-500px); */
+	transform: translateY(-600px);
 	transition: .8s ease-in-out;
 }
 .login label{
@@ -98,3 +123,8 @@ button:hover{
 	transform: scale(1);
 }
 
+/* .img{
+	position: absolute;
+	z-index: 0;
+
+} */
