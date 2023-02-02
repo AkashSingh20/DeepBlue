@@ -87,6 +87,7 @@
     width: 65px;
     border-radius: 35px;
     position: relative;
+    border: 2px solid blueviolet;
 }
 
 .dummy a{
@@ -709,6 +710,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+}
+
+.lower a{
+    position: absolute;
+    font-size: 19px;
+    color: #404040;
+
 }
 
 .lower img{
