@@ -20,3 +20,17 @@ function click2(){
     // console.log("clicked");
 }
 
+function signupf(){
+    // document.getElementById("loginbox").style["transform"]="translateY(-180px)";
+    console.log("activated")
+        document.getElementById("loginbox").console.log("grabbed");
+
+}
+
+
+// #chk:checked ~ .login{
+	
+// 	transform: translateY(-600px);
+// }
+
+// transform: translateY(-180px);

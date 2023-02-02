@@ -8,7 +8,7 @@ body{
 	font-family: 'Jost', sans-serif;
 	/* background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e); */
 	/* background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1); */
-    background: linear-gradient(11.52deg,rgba(94,0,255,.63) 26.56%,rgba(255,0,104,.63) 143.34%);
+    /* background: linear-gradient(11.52deg,rgba(94,0,255,.63) 26.56%,rgba(255,0,104,.63) 143.34%); */
 
 }
 .main{
