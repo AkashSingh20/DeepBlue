@@ -29,11 +29,18 @@ function click1(){
     document.getElementById("but5").style.transform="scale(1)";
     document.getElementById("txt5").style.color="black";
 
-    document.getElementById("first").style.display="flex"
-    document.getElementById("second").style.display="none"
-    document.getElementById("third").style.display="none"
-    document.getElementById("fourth").style.display="none"
-    document.getElementById("fifth").style.display="none"
+    document.getElementById("first").style.display="flex";
+    document.getElementById("second").style.display="none";
+    document.getElementById("third").style.display="none";
+    document.getElementById("fourth").style.display="none";
+    document.getElementById("fifth").style.display="none";
+
+    document.getElementById("content1").style.display="flex";
+    document.getElementById("content1").style.flexDirection="column";
+    document.getElementById("content2").style.display="none";
+    document.getElementById("content3").style.display="none";
+    document.getElementById("content4").style.display="none";
+    document.getElementById("content5").style.display="none";
 
 
 }
@@ -70,11 +77,19 @@ function click2(){
     document.getElementById("but5").style.transform="scale(1)";
     document.getElementById("txt5").style.color="black";
 
-    document.getElementById("second").style.display="flex"
-    document.getElementById("first").style.display="none"
-    document.getElementById("third").style.display="none"
-    document.getElementById("fourth").style.display="none"
-    document.getElementById("fifth").style.display="none"
+    document.getElementById("second").style.display="flex";
+    document.getElementById("first").style.display="none";
+    document.getElementById("third").style.display="none";
+    document.getElementById("fourth").style.display="none";
+    document.getElementById("fifth").style.display="none";
+
+    document.getElementById("content1").style.display="none";
+    document.getElementById("content2").style.display="flex";
+    document.getElementById("content3").style.display="none";
+    document.getElementById("content4").style.display="none";
+    document.getElementById("content5").style.display="none";
+
+   
 }
 
 function click3(){
@@ -108,11 +123,18 @@ function click3(){
     document.getElementById("but5").style.transform="scale(1)";
     document.getElementById("txt5").style.color="black";
 
-    document.getElementById("third").style.display="flex"
-    document.getElementById("first").style.display="none"
-    document.getElementById("second").style.display="none"
-    document.getElementById("fourth").style.display="none"
-    document.getElementById("fifth").style.display="none"
+    document.getElementById("third").style.display="flex";
+    document.getElementById("first").style.display="none";
+    document.getElementById("second").style.display="none";
+    document.getElementById("fourth").style.display="none";
+    document.getElementById("fifth").style.display="none";
+
+    document.getElementById("content1").style.display="none";
+    document.getElementById("content2").style.display="none";
+    document.getElementById("content3").style.display="flex";
+    document.getElementById("content4").style.display="none";
+    document.getElementById("content5").style.display="none";
+
 
 }
 
@@ -153,6 +175,13 @@ function click4(){
     document.getElementById("fourth").style.display="flex"
     document.getElementById("fifth").style.display="none"
 
+    document.getElementById("content1").style.display="none";
+    document.getElementById("content2").style.display="none";
+    document.getElementById("content3").style.display="none";
+    document.getElementById("content4").style.display="flex";
+    document.getElementById("content5").style.display="none";
+
+
 }
 
 function click5(){
@@ -191,5 +220,11 @@ function click5(){
     document.getElementById("second").style.display="none"
     document.getElementById("fourth").style.display="none"
     document.getElementById("fifth").style.display="flex"
+
+    document.getElementById("content1").style.display="none";
+    document.getElementById("content2").style.display="none";
+    document.getElementById("content3").style.display="none";
+    document.getElementById("content4").style.display="none";
+    document.getElementById("content5").style.display="flex";
     
 }
