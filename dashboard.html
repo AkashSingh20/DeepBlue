@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="dashboard.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+  </head>
+
+  <body>
+    <div class="main">
+      <div class="main_left">
+        <div class="hierarchy">
+          <div class="title"><a href="">DeepBlue</a></div>
+          <div class="line"></div>
+          <div class="elements">
+            <div class="box">
+              <div class="but ab" id="but1">
+                <div class="check">
+                  <img src="img/dashboard.png" id="img1" />
+                </div>
+                <div class="word">
+                  <a href="javascript:void(0)" id="txt1" onclick="click1()"
+                    >Dashboard</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="box">
+              <div class="but cd" id="but2">
+                <div class="check"><img src="img/summary.png" id="img2" /></div>
+                <div class="word">
+                  <a href="javascript:void(0)" id="txt2" onclick="click2()"
+                    >Summary</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="box">
+              <div class="but ef" id="but3">
+                <div class="check"><img src="img/storage.png" id="img3" /></div>
+                <div class="word">
+                  <a href="javascript:void(0)" id="txt3" onclick="click3()"
+                    >Storage</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="box">
+              <div class="but gh" id="but4">
+                <div class="check"><img src="img/user.png" id="img4" /></div>
+                <div class="word">
+                  <a href="javascript:void(0)" id="txt4" onclick="click4()"
+                    >Account</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="box">
+              <div class="but ij" id="but5">
+                <div class="check"><img src="img/log-out.png" id="img5" /></div>
+                <div class="word">
+                  <a href="javascript:void(0)" id="txt5" onclick="click5()"
+                    >Log Out</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main_right">
+        <div class="banner">
+          <div class="banleft first" id="first" ><a> Welcome, Aakash.</a></div>
+          <div class="banleft second" id="second" ><a> Summary</a></div>
+          <div class="banleft third" id="third" ><a> Storage</a></div>
+          <div class="banleft fourth" id="fourth" ><a> Account</a></div>
+          <div class="banleft fifth" id="fifth" ><a> Logging out...</a></div>
+          <div class="banright"></div>
+        </div>
+        <div class="content"></div>
+      </div>
+    </div>
+
+    <script src="dashboard.js"></script>
+  </body>
+</html>
