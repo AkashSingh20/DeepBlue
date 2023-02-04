@@ -42,7 +42,7 @@
 .banner{
     /* border: 1px solid red; */
     border-radius: 20px;
-    width: 1166px;
+    width: 1037px;
     height: 100px;
     margin-top: 20px;
     background: #ffffff;
@@ -188,12 +188,36 @@
     align-items: center;
 }
 
-.banright{
-    position: relative;
-    /* border: 1px solid blue; */
-    height: 100%;
-    width: 170px;
-    
+.profile{
+    position: absolute;
+    right: 30px;
+    top: 18px;
+    /* border: 1px solid pink; */
+    border: 4px solid #ff0055dc;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 12px -3px rgba(0,0,0,0.8);
+    height: 97px ;
+    width: 97px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.profile a{
+    /* border: 5px solid #ff0055dc; */
+    height: 85px;
+    width: 85px;
+    border-radius: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.profile img{
+    height:70%;
 }
 
 .banleft a{
@@ -333,6 +357,7 @@
     align-items: center;
     font-weight: bold;
     color: #415a77;
+    /* text-decoration: none; */
     
 }
 
@@ -393,4 +418,89 @@
     /* border: 1px solid #ff0054; */
 
 }
+
+.content2{
+    /* display: flex; */
+    flex-direction: column;
+}
+
+.content2 h1{
+    /* border: 1px solid red; */
+    width: 200px;
+    height: fit-content;
+    color:#415a77;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.content2_container{
+    /* border: 1px solid red; */
+    width: 900px;
+    height: 470px;
+    margin-left: 50px;
+    margin-top: 25px;
+    /* padding-top: 20px; */
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto ;
+    overflow-y: auto;
+    
+}
+
+.content2_container .card{
+    margin-top: 17.5px;
+    margin-bottom: 17.5px;
+}
+
+::-webkit-scrollbar {
+    width: 5px;               /* width of the entire scrollbar */
+    height: 80px;
+}
+  
+::-webkit-scrollbar-track {
+    background: #edede9;        /* color of the tracking area */
+}
+  
+::-webkit-scrollbar-thumb {
+    background-color: #8d99ae;    /* color of the scroll thumb */
+    border-radius: 40px;       /* roundness of the scroll thumb */
+}
+
+.content2_container a{
+    text-decoration: none;
+    color: #415a77;
+}
+
+.content3 h1{
+    /* border: 1px solid red; */
+    width: 200px;
+    height: fit-content;
+    color:#415a77;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.content3{
+    flex-direction: column;
+}
+
+.content3_container{
+    /* border: 1px solid red; */
+    width: 900px;
+    height: 450px;
+    margin-left: 50px;
+    margin-top: 25px;
+    overflow-y: auto;
+}
+.content3_container a{
+    text-decoration: none;
+
+}
+
+
+
 
