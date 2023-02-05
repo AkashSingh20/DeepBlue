@@ -192,8 +192,8 @@
     position: absolute;
     right: 30px;
     top: 18px;
-    /* border: 1px solid pink; */
-    border: 4px solid #ff0055dc;
+    /* border: 1px solid pink;  */
+    border: 5px solid #ff0055dc;
     background-color: #ffffff;
     box-shadow: 2px 2px 12px -3px rgba(0,0,0,0.8);
     height: 97px ;
@@ -390,7 +390,7 @@
     color:#415a77 ;
 }
 
-.add{
+.add1{
     /* border: 1px solid blue; */
     background-color: #622ac2;
     position: absolute;
@@ -399,6 +399,7 @@
     border-radius: 45px;
     bottom: 50px;
     right: 70px;
+    /* top: 0; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -406,12 +407,12 @@
 
 }
 
-.add img{
+.add1 img{
     height: 70%;
     filter: invert(1);
 }
 
-.add:hover{
+.add1:hover{
     transform: scale(1.05);
     transition: 200ms;
     box-shadow: 0px 0px 15px blueviolet;
@@ -422,6 +423,7 @@
 .content2{
     /* display: flex; */
     flex-direction: column;
+    position: relative;
 }
 
 .content2 h1{
@@ -436,14 +438,14 @@
 }
 
 .content2_container{
-    /* border: 1px solid red; */
+    /* border: 1px solid red;   */
     width: 900px;
     height: 470px;
     margin-left: 50px;
     margin-top: 25px;
     /* padding-top: 20px; */
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: 215px 215px 215px 215px;
     grid-template-rows: auto auto auto auto auto auto ;
     overflow-y: auto;
     
@@ -486,6 +488,7 @@
 
 .content3{
     flex-direction: column;
+    position: relative;
 }
 
 .content3_container{
@@ -501,6 +504,155 @@
 
 }
 
+.add2{
+    /* border: 1px solid blue; */
+    background-color: #622ac2;
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    border-radius: 45px;
+    bottom: 50px;
+    right: 70px;
+    /* top: 0; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 7px blueviolet;
 
+}
+
+.add2 img{
+    height: 70%;
+    filter: invert(1);
+}
+
+.add2:hover{
+    transform: scale(1.05);
+    transition: 200ms;
+    box-shadow: 0px 0px 15px blueviolet;
+    /* border: 1px solid #ff0054; */
+
+}
+
+.add3{
+    /* border: 1px solid blue; */
+    background-color: #622ac2;
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    border-radius: 45px;
+    bottom: 50px;
+    right: 70px;
+    /* top: 0; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 7px blueviolet;
+
+}
+
+.add3 img{
+    height: 70%;
+    filter: invert(1);
+}
+
+.add3:hover{
+    transform: scale(1.05);
+    transition: 200ms;
+    box-shadow: 0px 0px 15px blueviolet;
+    /* border: 1px solid #ff0054; */
+
+}
+
+.content4 h1{
+    width: 200px;
+    color:#415a77;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-left: 70px;
+
+}
+
+.content4{
+    position: relative;
+    flex-direction: column;
+}
+
+.content4_profile{
+    border: 1px solid black;
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+    top: 200px;
+    right: 310px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid #622ac2;
+
+}
+
+.content4_profile img{
+    /* border: 1px solid rebeccapurple;
+    height: 120px;
+    border-radius: 60px; */
+    height: 60%;
+    
+}
+
+.content4_container{
+    /* border: 1px solid red; */
+    margin-top: 40px;
+    margin-left: 120px;
+    width: 800px;
+    height: 450px;
+    
+}
+
+.field{
+    /* border: 1px solid blue; */
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.field_l{
+    /* border: 1px solid pink; */
+    height: 100%;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 17px;
+    font-weight: bold;
+    color: #415a77;
+
+}
+
+.field_r{
+    border: 2px solid #ff0055;
+    height: 35px;
+    width: fit-content;
+    min-width: 50px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    padding: 0px 10px 0px 10px;
+}
+
+.seperate{
+    position: absolute;
+    border: 1px solid #415a779a;
+    height: 250px;
+    left: 590px;
+    top: 163px;
+}
 
 
